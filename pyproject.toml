@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-overlay-media"
+description = "This repository contains a custom ComfyUI node for overlaying media using ffmpeg."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["ffmpeg"]
+
+[project.urls]
+Repository = "https://github.com/Elaine-chennn/comfyui-overlay-media"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "comfyui-overlay-media"
+Icon = ""
